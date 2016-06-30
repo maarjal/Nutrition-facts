@@ -1,0 +1,118 @@
+body {
+  font-family: "helvetica";
+}
+ p:nth-of-type(2) {
+   border-bottom: 8px solid black;
+   padding-bottom: 4px;
+   margin-right: 58px;
+   margin-top: 5px;
+ }
+ tr:nth-of-type(11) td:first-child {
+    border-bottom: 8px solid black;
+ }
+ p {
+   margin-bottom: 5px;
+ }
+.nutrition {
+  width: 342px;
+  height:700px;
+  border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+  padding: 15px;
+}
+.heading {
+  position: relative;
+  width: 400px;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  font-size: 2.5em;
+  margin-top: 5px;
+}
+
+.info {
+  position: absolute;
+  width:400px;
+  left: 418px;
+}
+thead tr {
+  height: 12px;
+}
+table {
+  border-collapse: collapse;
+}
+tbody tr:first-child {
+  border-bottom: 5px solid black;
+}
+
+th {
+  font-weight: lighter;
+  border-bottom: 2px solid black;
+  text-align: left;
+  padding-bottom: 6px;
+}
+tr {
+  height: 35px;
+}
+td:not(.line1) {
+  border-bottom: 2px solid black;
+}
+tbody tr td:nth-child(even) {
+  text-align: right;
+  font-weight: bold;
+}
+tbody tr:nth-of-type(12) td:last-child, tbody tr:nth-of-type(13) td:last-child {
+  font-weight: normal;
+}
+tbody tr:nth-of-type(12) td:last-child:before, tbody tr:nth-of-type(13) td:last-child:before {
+  content: "• ";
+}
+tbody tr:nth-of-type(2) td:first-child {
+  text-align: right;
+  font-weight: bold;
+}
+tbody tr:nth-of-type(3) td:first-child {
+}
+tbody tr:nth-of-type(4) td:first-child, tbody tr:nth-of-type(5) td:first-child, tbody tr:nth-of-type(9) td:first-child, tbody tr:nth-of-type(10) td:first-child {
+  padding-left: 19px;
+}
+.line1:before {
+  content : "";
+  position: absolute;
+  left: 19px;
+  top: 173px;
+  height: 1px;
+  width: 324px;
+  border-bottom: 2px solid black;
+}
+  #one:before {
+    content : "";
+    position: absolute;
+    left: 19px;
+    top: 141px;
+    height: 1px;
+    width: 324px;
+    border-bottom: 2px solid black;
+  }
+  #two:before {
+    content : "";
+    position: absolute;
+    left: 19px;
+    top: 349px;
+    height: 1px;
+    width: 324px;
+    border-bottom: 2px solid black;
+  }
+  #three:before {
+    content : "";
+    position: absolute;
+    left: 19px;
+    top: 317px;
+    height: 1px;
+    width: 324px;
+    border-bottom: 2px solid black;
+  }
