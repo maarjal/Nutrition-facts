@@ -12,10 +12,11 @@ body {
  }
  p {
    margin-bottom: 5px;
+   margin-right: 40px;
  }
 .nutrition {
   width: 342px;
-  height:700px;
+  height:1200px;
   border: 2px solid black;
   margin-left: auto;
   margin-right: auto;
@@ -116,3 +117,21 @@ tbody tr:nth-of-type(4) td:first-child, tbody tr:nth-of-type(5) td:first-child, 
     width: 324px;
     border-bottom: 2px solid black;
   }
+.bottom-table {
+  display: none;
+  position: absolute;
+  width: 400px;
+  top: 880px;
+  left: 419px;
+}
+.bottom-table th {
+  text-align: right;
+  margin-right: 40px;
+}
+.b-table tbody td, .b-table tbody tr:first-child {
+  border: none;
+}
+.b-table tbody tr td {
+  margin: 0;
+  text-align: left;
+}
